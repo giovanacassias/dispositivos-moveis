@@ -1,0 +1,31 @@
+name,currency,email,startDate,endDate,budget
+Jinan,Yuan Renminbi,ldeeson0@ucla.edu,10/6/2026,11/15/2025,$4229.43
+Nepomuceno,Real,ragass1@unicef.org,10/15/2024,12/31/2024,$27276.18
+Sathing Phra,Baht,bkahler2@newyorker.com,4/26/2026,6/13/2026,$25899.37
+Tanamiting,Rupiah,cguntrip3@disqus.com,10/9/2026,5/30/2024,$25130.10
+Mollas,Lek,spaskell4@berkeley.edu,6/29/2026,11/7/2025,$12680.73
+Linoan,Peso,gcropper5@hp.com,10/5/2026,5/14/2025,$9206.13
+La Libertad,Dollar,mornillos6@eventbrite.com,8/2/2025,6/17/2025,$14956.09
+Corumbá,Real,cvanoort7@businessweek.com,4/16/2025,3/2/2026,$8285.52
+Xinan,Yuan Renminbi,hkingdon8@skype.com,5/12/2025,1/21/2025,$24025.04
+Arlington,Dollar,jteasell9@fc2.com,11/26/2024,6/18/2024,$16084.23
+
+
+        <TripCard
+          name={trip.name}
+          currency={trip.currency}
+          start={trip.startDate}
+          end={trip.endDate}
+          budget={trip.budget}
+        ></TripCard>
+        
+        
+              <Flex align="center">
+        <TripCard
+          name={trip.name}
+          currency={trip.currency}
+          start={trip.startDate}
+          end={trip.endDate}
+          budget={trip.budget}
+        ></TripCard>
+      </Flex>
